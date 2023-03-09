@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        ros2_distro: [galactic]
+        ros2_distro: [humble]
     steps:
       - name: Checkout dynmsg
         uses: actions/checkout@v2
