@@ -30,7 +30,7 @@
 #include "rcutils/allocator.h"
 
 #include "dynmsg/config.hpp"
-#include "dynmsg/msg_parser.hpp"
+#include "dynmsg/msg_parser_json.hpp"
 #include "dynmsg/string_utils.hpp"
 
 namespace dynmsg

@@ -12,8 +12,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#ifndef DYNMSG_DEMO__TYPESUPPORT_UTILS_HPP_
-#define DYNMSG_DEMO__TYPESUPPORT_UTILS_HPP_
+#ifndef DYNMSG__TYPESUPPORT_UTILS_HPP_
+#define DYNMSG__TYPESUPPORT_UTILS_HPP_
 
 #include <string>
 #include <utility>
@@ -46,4 +46,4 @@ InterfaceTypeName get_topic_type_from_string_type(const std::string & type);
 // rcl_subscription_init().
 const TypeSupport * get_type_support(const InterfaceTypeName & interface_type);
 }  // extern "C"
-#endif  // DYNMSG_DEMO__TYPESUPPORT_UTILS_HPP_
+#endif  // DYNMSG__TYPESUPPORT_UTILS_HPP_

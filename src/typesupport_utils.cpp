@@ -17,7 +17,7 @@
 #include <sstream>
 #include <string>
 
-#include "dynmsg_demo/typesupport_utils.hpp"
+#include "dynmsg/typesupport_utils.hpp"
 
 #include "rcl/error_handling.h"
 #include "rcl/graph.h"
