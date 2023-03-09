@@ -59,7 +59,7 @@ jobs:
       - name: Upload to Artifactory
         env:
           ARTIFACTORY_REPO: ssrc-deb-public-local
-          DISTRIBUTION: focal
+          DISTRIBUTION: jammy
           COMPONENT: fog-sw
           ARCHITECTURE: amd64
           BUILD_NAME: dynmsg
